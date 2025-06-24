@@ -1,0 +1,343 @@
+/* Media query */
+
+@media all and (max-width: 1420px) {
+    /* Everything acceptable */
+}
+
+@media all and (max-width: 1200px) {
+    /* Everything acceptable */
+}
+
+@media all and (max-width: 991px) {
+
+    /* Nav bar i header sekcija */
+    .logo h1 {
+        font-size: 35px;
+    }
+
+    .retreat-to-scandinavia h2 {
+        font-size: 29px;
+        top: 2vh;
+    }
+
+    /* About Scandinavia */
+    .video-text p {
+        font-size: 13px;
+    }
+
+    .learn-more {
+        font-size: 12px;
+    }
+
+    .aboutscandinavia {
+        height: 600px;
+    }
+
+    /* Nordic tours */
+    .text-content h3 {
+        font-size: 18px;
+    }
+
+    .text-content p,
+    .tour-item:hover .text-content {
+        font-size: 13px;
+    }
+
+    /* Gallery */
+    .gallery {
+        height: 600px;
+    }
+
+    /* Reviews */
+    .review h4 {
+        font-size: 18px;
+    }
+
+    .review p {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+    /* Kontakt forma */
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width: 768px) {
+
+    /* Nav bar i header sekcija */
+    .retreat-to-scandinavia h2 {
+        font-size: 22px;
+    }
+
+    .retreat-to-scandinavia p {
+        font-size: 15px;
+    }
+
+    /* About Scandinavia */
+    .aboutscandinavia,
+    .tours,
+    .gallery,
+    .reviews {
+        padding: 15vh 2vw 12vh;
+    }
+
+    .aboutscandinavia,
+    .gallery,
+    .reviews {
+        height: auto;
+    }
+
+    .aboutscandinavia {
+        justify-content: center;
+    }
+
+    .video {
+        flex-direction: column;
+        justify-content: center;
+        padding: 2vw;
+    }
+
+    .video-container {
+        max-width: 100%;
+        width: 80%;
+        margin-bottom: 3vw;
+    }
+
+    .video-container iframe {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .video-text {
+        max-width: 100%;
+        width: 80%;
+        padding: 1vw 0;
+        text-align: left;
+    }
+
+    .learn-more {
+        text-align: left;
+    }
+
+    /* Nordic tours */
+    .tours-gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1vw;
+    }
+
+    .tour-item {
+        width: 80vw;
+        margin: 3vw 0;
+    }
+
+    .text-content h3 {
+        font-size: 20px;
+        margin-bottom: 2vw;
+    }
+
+    .text-content p,
+    .tour-item:hover .text-content {
+        font-size: 15px;
+    }
+
+    /* Gallery */
+    .images img {
+        width: calc(45% - 2vw);
+        height: calc(25% - 2vw);
+        margin: 2vw;
+    }
+
+    /* Reviews */
+    .review {
+        flex: 1 1 calc(40% - 2vw);
+        padding: 3vw;
+        margin: 1.5vw;
+        max-width: calc(43% - 2vw);
+    }
+}
+
+@media all and (max-width: 480px) {
+
+    /* Nav bar, hamburger meni i header sekcija */
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links li {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    .nav-links a:hover,
+    .nav-links a:hover::after,
+    .nav-links a:hover::before {
+        color: white;
+        background-color: transparent;
+        filter: none;
+        opacity: 1;
+    }
+
+    .nav-links:hover a:not(:hover) {
+        filter: none;
+    }
+
+    /* About Scandinavia */
+    .aboutscandinavia h2,
+    .tours h2,
+    .gallery h2,
+    .reviews h2,
+    .contact-form h2 {
+        font-size: 30px;
+    }
+
+    /* Nordic tours */
+    .text-content h3 {
+        font-size: 18px;
+        margin-bottom: 3vw;
+    }
+
+    .text-content p,
+    .tour-item:hover .text-content {
+        font-size: 13px;
+    }
+
+    /* Gallery */
+    .images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .images img {
+        width: 80vw;
+        max-height: 60vw;
+        margin: 3vw 0;
+        border-radius: 1vw;
+    }
+
+    /* Reviews */
+    .reviews-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review {
+        padding: 4vw;
+        margin: 3vw 0;
+        max-width: 80vw;
+    }
+
+    .review h4 {
+        font-size: 16px;
+    }
+
+    .review p {
+        font-size: 13px;
+        line-height: 1.3;
+    }
+
+    /* Kontakt forma */
+    .form-group label {
+        margin: 4vw 0 1.5vw;
+    }
+
+    .form-group button {
+        padding: 6px 12px;
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width: 320px) {
+
+    /* Header sekcija */
+    .retreat-to-scandinavia h2 {
+        font-size: 18px;
+    }
+
+    .retreat-to-scandinavia p {
+        font-size: 13px;
+    }
+
+    /* About Scandinavia */
+    .aboutscandinavia h2,
+    .tours h2,
+    .gallery h2,
+    .reviews h2,
+    .contact-form h2 {
+        font-size: 24px;
+    }
+
+    .aboutscandinavia,
+    .tours,
+    .gallery,
+    .reviews {
+        padding: 10vh 2vw 12vh;
+    }
+
+    .retreat-to-scandinavia button {
+        font-size: 13px;
+        padding: 6px 12px;
+    }
+
+    .learn-more {
+        padding: 6px 12px;
+    }
+
+    /* Nordic tours */
+    .text-content h3 {
+        font-size: 16px;
+        margin-bottom: 3vw;
+    }
+
+    .text-content p,
+    .tour-item:hover .text-content {
+        font-size: 12px;
+    }
+
+    /* Gallery */
+    .images img {
+        width: 80vw;
+        max-height: 50vw;
+        margin: 3vw 0;
+    }
+
+    /* Reviews */
+    .reviews-container {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .review {
+        padding: 4vw;
+        margin: 3vw 0;
+        max-width: 80vw;
+    }
+
+    /* Kontakt forma */
+    .contact-form {
+        padding: 5vh 0 5vh;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+        font-size: 12px;
+    }
+
+    /* Footer */
+    .social-media i {
+        font-size: 16px;
+    }
+}
