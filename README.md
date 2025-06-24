@@ -1,0 +1,1 @@
+Retreat to Scandinavia is a responsive web project focused on user interface (UI) and user experience (UX) design. Inspired by the natural beauty and culture of Scandinavia, it showcases tours, a gallery, reviews, and a contact form. Built with HTML, CSS, and JavaScript, the site features a modern navigation menu optimized for both desktop and mobile devices.
